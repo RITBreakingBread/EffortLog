@@ -11,6 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150831205404) do
+
+  create_table "effort_logs", force: :cascade do |t|
+    t.string   "name",       null: false
+    t.string   "real_name",  null: false
+    t.datetime "start_time", null: false
+    t.datetime "end_time",   null: false
+    t.string   "comment",    null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
