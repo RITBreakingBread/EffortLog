@@ -8,7 +8,8 @@ class EffortLogsController < ApplicationController
     #if successful, return successful response
     #if failed, return failed response 
 
-
+    log_params = {}
+    
     log_params[:name] = params[:name]
     log_params[:real_name] = params[:real_name]
     num_hours = params[:hours]
