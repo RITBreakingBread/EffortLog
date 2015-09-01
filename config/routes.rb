@@ -4,7 +4,8 @@ Rails.application.routes.draw do
     scope '/v1' do
       scope '/logs' do
         post '/' => 'effort_logs#create'
-        get '/' => 'effort_logs#show'
+        get '/' => 'effort_logs#index'
+        #route /(:id) to show
       end
     end
   end
