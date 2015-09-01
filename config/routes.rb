@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+
+  scope '/api' do
+    scope '/v1' do
+      scope '/logs' do
+        post '/' => 'effort_logs#create'
+      end
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
