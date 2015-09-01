@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     scope '/v1' do
       scope '/logs' do
         post '/' => 'effort_logs#create'
+        get '/' => 'effort_logs#show'
       end
     end
   end
