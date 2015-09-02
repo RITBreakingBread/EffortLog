@@ -10,7 +10,7 @@ class EffortLogsController < ApplicationController
 
     log_params = {}
     
-    log_params[:name] = params[:name]
+    log_params[:name] = params[:username]
     log_params[:real_name] = params[:real_name]
     num_hours = params[:hours].to_f
 
