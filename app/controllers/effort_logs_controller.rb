@@ -23,9 +23,9 @@ class EffortLogsController < ApplicationController
     log_params[:comment] = params[:comment]
 
     if @log = EffortLog.new(log_params).save!
-      render status: 200
+      render nothing: true, status: 200
     else
-      render status: 500
+      render nothing: true, status: 500
     end
 
 
