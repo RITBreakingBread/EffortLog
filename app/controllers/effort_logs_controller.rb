@@ -12,7 +12,7 @@ class EffortLogsController < ApplicationController
     
     log_params[:name] = params[:name]
     log_params[:real_name] = params[:real_name]
-    num_hours = params[:hours].to_float
+    num_hours = params[:hours].to_f
 
     end_time = params[:end_time]
     log_params[:end_time] = end_time
