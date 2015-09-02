@@ -12,6 +12,8 @@ class EffortLogsController < ApplicationController
     
     log_params[:name] = params[:username]
     log_params[:real_name] = params[:real_name]
+    log_params[:url] = params[:url]
+
     num_hours = params[:hours].to_f
 
     end_time = DateTime.now()
