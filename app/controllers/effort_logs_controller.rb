@@ -2,12 +2,7 @@ class EffortLogsController < ApplicationController
   
   def create
 
-    #get params from request
-    #EffortLog.new (w/params)
-    #attempt to save record
-    #if successful, return successful response
-    #if failed, return failed response 
-
+    #build a hash of params for effort_log creation
     log_params = {}
     
     log_params[:name] = params[:username]
@@ -16,28 +11,25 @@ class EffortLogsController < ApplicationController
 
     num_hours = params[:hours].to_f
 
+    #given number of hours worked, end time is now and start time is end time - hours worked
     end_time = DateTime.now()
     log_params[:end_time] = end_time
     log_params[:start_time] = end_time - num_hours.hours
 
     log_params[:comment] = params[:comment]
 
+    #only return a 200 status if the record was saved
     if @log = EffortLog.new(log_params).save!
       render nothing: true, status: 200
     else
       render nothing: true, status: 500
     end
-
-
   end
-
 
   def index 
-    return "some shit"
+    @logs = EffortLog.all
+    binding.pry
   end
 
-  def show
-    return "some specific shit"
-  end
 
 end

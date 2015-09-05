@@ -1,0 +1,21 @@
+<h1>Effort Log Report</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Start Time</th>
+    <th>End Time</th>
+    <th>url</th>
+    <th>comment</th>
+  </tr>
+ 
+<% @logs.each do |log| %>
+  <tr>
+    <td><%= log.real_name %></td>
+    <td><%= log.start_time %></td>
+    <td><%= log.end_time %></td>
+    <td><%= log.url %></td>
+    <td><%= log.comment %></td>
+  </tr>
+<% end %>
+</table>
