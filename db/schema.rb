@@ -11,17 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150902004103) do
+ActiveRecord::Schema.define(version: 20150905195120) do
 
   create_table "effort_logs", force: :cascade do |t|
-    t.string   "name",       null: false
-    t.string   "real_name",  null: false
-    t.datetime "start_time", null: false
-    t.datetime "end_time",   null: false
-    t.string   "comment",    null: false
+    t.string   "name",                     null: false
+    t.string   "real_name",                null: false
+    t.datetime "start_time",               null: false
+    t.datetime "end_time",                 null: false
+    t.string   "comment",                  null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "url"
+    t.decimal  "hours",      default: 0.0, null: false
   end
 
 end

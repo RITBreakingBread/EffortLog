@@ -3,6 +3,7 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Hours></th>
     <th>Start Time</th>
     <th>End Time</th>
     <th>url</th>
@@ -12,6 +13,7 @@
 <% @logs.each do |log| %>
   <tr>
     <td><%= log.real_name %></td>
+    <td><%= log.hours.to_f %></td>
     <td><%= log.start_time %></td>
     <td><%= log.end_time %></td>
     <td><%= log.url %></td>
