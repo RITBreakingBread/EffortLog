@@ -28,7 +28,6 @@ class EffortLogsController < ApplicationController
 
   def index 
     @logs = EffortLog.all
-    binding.pry
   end
 
 
