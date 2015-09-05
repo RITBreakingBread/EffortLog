@@ -3,9 +3,8 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Hours></th>
-    <th>Start Time</th>
-    <th>End Time</th>
+    <th>Hours</th>
+    <th>Recorded</th>
     <th>url</th>
     <th>comment</th>
   </tr>
@@ -14,8 +13,7 @@
   <tr>
     <td><%= log.real_name %></td>
     <td><%= log.hours.to_f %></td>
-    <td><%= log.start_time %></td>
-    <td><%= log.end_time %></td>
+    <td><%= log.end_time.strftime("%-m/%-d/%Y @ %l:%M %P") %>
     <td><%= log.url %></td>
     <td><%= log.comment %></td>
   </tr>
