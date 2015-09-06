@@ -1,21 +1,23 @@
 <h1>Effort Log Report</h1>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Hours</th>
-    <th>Recorded</th>
-    <th>url</th>
-    <th>comment</th>
-  </tr>
- 
-<% @logs.each do |log| %>
-  <tr>
-    <td><%= log.real_name %></td>
-    <td><%= log.hours.to_f %></td>
-    <td><%= log.end_time.strftime("%-m/%-d/%Y @ %l:%M %P") %>
-    <td><%= log.url %></td>
-    <td><%= log.comment %></td>
-  </tr>
-<% end %>
-</table>
+<div class="table-responsive">
+  <table class="table table-striped">
+    <tr>
+      <th>Name</th>
+      <th>Hours</th>
+      <th>Recorded</th>
+      <th>url</th>
+      <th>comment</th>
+    </tr>
+
+    <% @logs.each do |log| %>
+        <tr>
+          <td><%= log.real_name %></td>
+          <td><%= log.hours.to_f %></td>
+          <td><%= log.end_time.strftime("%-m/%-d/%Y @ %l:%M %P") %>
+          <td><%= log.url %></td>
+          <td><%= log.comment %></td>
+        </tr>
+    <% end %>
+  </table>
+</div>
