@@ -14,7 +14,7 @@
         <tr>
           <td><%= log.real_name %></td>
           <td><%= log.hours.to_f %></td>
-          <td><%= log.end_time.strftime("%-m/%-d/%Y @ %l:%M %P") %>
+          <td><%= log.start_time.in_time_zone('Eastern Time (US & Canada)').strftime("%-m/%-d/%Y @ %l:%M %P") %>
           <td><a href="<%= log.url %>" target="_blank">View Card</a></td>
           <td><%= log.comment %></td>
         </tr>
