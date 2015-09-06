@@ -15,7 +15,7 @@
           <td><%= log.real_name %></td>
           <td><%= log.hours.to_f %></td>
           <td><%= log.end_time.strftime("%-m/%-d/%Y @ %l:%M %P") %>
-          <td><%= log.url %></td>
+          <td><a href="<%= log.url %>">Trello Card</a></td>
           <td><%= log.comment %></td>
         </tr>
     <% end %>
