@@ -3,12 +3,21 @@
 <head>
   <title>Effortlog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
 
-<%= nav_bar brand: "BreadBot Team", brand_link: 'http://bbread.lol'  %>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">BreakingBread</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="/">Reports</a></li>
+        <li><a href="/4ups">4ups</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <div class="container">
   <%= yield %>
 </div>
