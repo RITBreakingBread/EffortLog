@@ -28,7 +28,7 @@ class EffortLogsController < ApplicationController
   end
 
   def index 
-    @logs = EffortLog.all.order(start_time: :desc)
+    @logs = EffortLog.all.order(start_time: :asc)
   end
 
 
