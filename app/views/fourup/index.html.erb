@@ -1,0 +1,90 @@
+<% @four_ups.each do |four_up| %>
+
+<div class="container">
+  <div class="col-md-12">
+    <h1>Week <%= four_up['week'] %></h1>
+  </div>
+  
+  <div class="col-md-6">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Progress</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% four_up['progress'].each do |item|%>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-6">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Risks</h3>
+      </div>
+      <div class="panel-body">
+        <h5>High Priority</h4>
+        <ul>
+        <% four_up['risks']['high'].each do |item|%>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        <h5>Medium Priority</h4>
+        <ul>
+        <% four_up['risks']['medium'].each do |item|%>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+        <h5>Low Priority</h4>
+        <ul>
+        <% four_up['risks']['low'].each do |item|%>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-6">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Plans</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% four_up['plans'].each do |item|%>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-6">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Needs</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% four_up['needs'].each do |item|%>
+          <li><%= item %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<% end %>

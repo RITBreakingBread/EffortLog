@@ -1,0 +1,76 @@
+[
+  {
+    "week": "1",
+    "progress" : [
+      "Set up Slack for team communication (Craig)",
+      "Set up Trello for task management and risk management (Josh, Ben)",
+      "Set up Drive and File sharing (Kocsen)",
+      "Swimlane Diagrams (Jeremy)",
+      "Identified initial risks (Ben, Craig)",
+      "Create week 2 meeting agendas (Josh)",
+      "Send out email for VM creation (Kocsen)",
+      "Create VM for internal tools (Kocsen)"
+    ],
+    "risks" : {
+      "high" : [
+        "Project scope is vague",
+        "Technical constraints are unclear",
+        "The team commits to a larger project scope than what can be completed"
+      ],
+      "medium" : [
+        "Team is inexperienced with .NET framework",
+        "Team is inexperienced with Microsoft SharePoint technologies"
+      ],
+      "low" : []
+    },
+    "plans" : [
+      "Project synopsis",
+      "Determine project metrics",
+      "Begin identifying domain model",
+      "Setup website",
+      "Identify development process"
+    ],
+    "needs" : [
+      "Documentation on general production environment setup",
+      "Sample user accounts to play with existing third party application",
+      "List of important dates (presentations, start of scholarship applications, etc.)"
+    ]
+  },
+  {
+    "week": "2",
+    "progress" : [
+      "Determined process methodology (Everyone)",
+      "Investigate Team Foundation Server (Ben)",
+      "Draft system context diagrams (Craig)",
+      "Research active direcory authentication (Craig)",
+      "Develop report view for team website (Kocsen, Josh)",
+      "Develop 4up view for team website (Ben)",
+      "Research Microsoft SSIS (Jeremy)"
+    ],
+    "risks" : {
+      "high" : [
+        "Project scope is vague",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ],
+      "medium" : [
+        "Data Synchronization between Wegmans'core and Scholarship Application",
+        "Team is inexperienced with .NET framework",
+        "Technical constraints are unclear"
+      ],
+      "low" : [
+        "Relying on Digital Ocean for provisioning of internal tools and website"
+      ]
+    },
+    "plans" : [
+      "Decide on product/process metrics",
+      "Begin learning .NET MVC framework",
+      "Finalize project synopis",
+      "Draft project domain model"
+    ],
+    "needs" : [
+      "Requested VMs from SE department",
+      "Technical specifcations from Wegmans Sponsors"
+    ]
+  }
+]

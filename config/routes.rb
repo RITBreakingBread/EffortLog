@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   root 'effort_logs#index'
 
+  get '4ups' => 'fourup#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
