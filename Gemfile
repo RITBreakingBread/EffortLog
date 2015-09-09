@@ -47,3 +47,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #allows for runtime debugging of code
 gem 'pry'
+
+gem 'will_paginate', '~> 3.0.6'
