@@ -27,8 +27,12 @@ class EffortLogsController < ApplicationController
     end
   end
 
-  def index
 
+  def week_report
+    binding.pry
+  end
+
+  def index
     #get params
 
     #if params = "all"
