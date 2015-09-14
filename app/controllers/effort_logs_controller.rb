@@ -27,9 +27,7 @@ class EffortLogsController < ApplicationController
     end
   end
 
-  def index 
+  def index
     @logs = EffortLog.paginate(:page => params[:page]).order(start_time: :desc)
   end
-
-
 end

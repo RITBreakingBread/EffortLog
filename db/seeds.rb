@@ -7,6 +7,8 @@ case Rails.env
   when "development-sample"
     EffortLog.create(name: 'test', real_name: 'potato skins', url: 'http://google.com',
                      end_time: DateTime.now, start_time: DateTime.now - 5.hours, hours: 5, comment: 'Put chese and baked potatos')
+    EffortLog.create(name: 'another test', real_name: 'test account', url: 'http://trello.com',
+    				 end_time: DateTime.now - 13.days, start_time: DateTime.now - 12.days, hours: 24, comment: 'this was alot of work')
   when "production"
     # Nothing yet, not used
   else

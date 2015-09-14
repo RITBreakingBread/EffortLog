@@ -3,7 +3,22 @@
     Effort Log Report
     <small>Most recent on top</small>
   </h1>
+  <h3>
+    <% unless params[:id] then %>
+      Displaying All Effort Records
+    <% else %>
+      Displaying Effort Logs for Week <%= params[:id] %>
+    <% end %>
+  </h3>
 </div>
+
+<div class="btn-group" role="group" aria-label="...">
+  <%= link_to "All", "/", class: "btn btn-default" %>
+  <% [1,2,3,4].each do |week| %>
+    <%= link_to "Week " + week.to_s, week_report_path(week), class: "btn btn-default" %>
+  <% end %>
+</div>
+
 <div class="table-responsive">
   <table class="table table-striped table-bordered">
     <tr>
@@ -24,5 +39,5 @@
         </tr>
     <% end %>
   </table>
-  <%= will_paginate @logs %>
+  <%= will_paginate @logs.all %>
 </div>
