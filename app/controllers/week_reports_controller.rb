@@ -14,7 +14,7 @@ class WeekReportsController < ApplicationController
 
     #render template
 
-    @logs = EffortLog.where(:start_time => range_start..range_end).paginate(:page => params[:page])
+    @logs = EffortLog.where(:start_time => range_start..range_end).paginate(:page => params[:page]).order(start_time: :desc)
 
     render 'effort_logs/index'
   end
