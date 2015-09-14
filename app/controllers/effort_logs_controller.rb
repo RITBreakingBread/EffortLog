@@ -27,17 +27,7 @@ class EffortLogsController < ApplicationController
     end
   end
 
-
-  def week_report
-    binding.pry
-  end
-
   def index
-    #get params
-
-    #if params = "all"
     @logs = EffortLog.paginate(:page => params[:page]).order(start_time: :desc)
   end
-
-
 end
