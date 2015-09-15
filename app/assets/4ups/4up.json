@@ -1,39 +1,44 @@
 [
   {
-    "week": "1",
-    "progress" : [
-      "Set up Slack for team communication (Craig)",
-      "Set up Trello for task management and risk management (Josh, Ben)",
-      "Set up Drive and File sharing (Kocsen)",
-      "Swimlane Diagrams (Jeremy)",
-      "Identified initial risks (Ben, Craig)",
-      "Create week 2 meeting agendas (Josh)",
-      "Send out email for VM creation (Kocsen)",
-      "Create VM for internal tools (Kocsen)"
-    ],
-    "risks" : {
-      "high" : [
+    "week": "3", 
+    "progress": [
+      "Implement weekly pagination on Effort Log Reports (Josh)",
+      "Initial Work on Term Glossary (Craig)", 
+      "Reach out to Yeaple (Kocsen)", 
+      "Project Synopsis (Kocsen)",
+      "Senior Project Information Survey (Kocsen)", 
+      "Research Browser Usage (Craig)", 
+      "Research Data Synchronization Patterns (Josh)", 
+      "Manually Add Historical EffortLog Records (Josh)" 
+    ], 
+    "risks": {
+      "high": [
         "Project scope is vague",
-        "Technical constraints are unclear",
-        "The team commits to a larger project scope than what can be completed"
-      ],
-      "medium" : [
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Data Synchronization between Wegmans'core and Scholarship Application",
         "Team is inexperienced with .NET framework",
-        "Team is inexperienced with Microsoft SharePoint technologies"
-      ],
-      "low" : []
-    },
-    "plans" : [
-      "Project synopsis",
-      "Determine project metrics",
-      "Begin identifying domain model",
-      "Setup website",
-      "Identify development process"
+        "Technical constraints are unclear",
+        "Relying on Digital Ocean for provisioning of internal tools and website"
+      ], 
+      "low": [
+        "N/A"
+      ]
+      }, 
+    "plans": [
+      "Set up and investigate Jira Agile", 
+      "Start requirements document", 
+      "[Department Requirement] Domain Model", 
+      "Develop Start -> Finish Use Case diagram from user perspective", 
+      "Proof of concept ADFS setup", 
+      "Decide on two product / process metrics that will be tracked and reported on (via the website) every other week", 
+      "Watch the LYNDA .NET MVC Introduction", 
+      "[W4] Send Out Agenda"
     ],
-    "needs" : [
-      "Documentation on general production environment setup",
-      "Sample user accounts to play with existing third party application",
-      "List of important dates (presentations, start of scholarship applications, etc.)"
+    "needs": [
+      "N/A"
     ]
   },
   {
@@ -74,45 +79,40 @@
     ]
   }, 
   {
-    "week": "3", 
-    "progress": [
-      "Implement weekly pagination on Effort Log Reports (Josh)",
-      "Initial Work on Term Glossary (Craig)", 
-      "Reach out to Yeaple (Kocsen)", 
-      "Project Synopsis (Kocsen)",
-      "Senior Project Information Survey (Kocsen)", 
-      "Research Browser Usage (Craig)", 
-      "Research Data Synchronization Patterns (Josh)", 
-      "Manually Add Historical EffortLog Records (Josh)" 
-    ], 
-    "risks": {
-      "high": [
-        "Project scope is vague",
-        "The team commits to a larger project scope than what can be completed",
-        "Integration with Wegmans systems given technical constraints of a DMZ"
-      ], 
-      "medium": [
-        "Data Synchronization between Wegmans'core and Scholarship Application",
-        "Team is inexperienced with .NET framework",
-        "Technical constraints are unclear",
-        "Relying on Digital Ocean for provisioning of internal tools and website"
-      ], 
-      "low": [
-        "N/A"
-      ]
-      }, 
-    "plans": [
-      "Set up and investigate Jira Agile", 
-      "Start requirements document", 
-      "[Department Requirement] Domain Model", 
-      "Develop Start -> Finish Use Case diagram from user perspective", 
-      "Proof of concept ADFS setup", 
-      "Decide on two product / process metrics that will be tracked and reported on (via the website) every other week", 
-      "Watch the LYNDA .NET MVC Introduction", 
-      "[W4] Send Out Agenda"
+    "week": "1",
+    "progress" : [
+      "Set up Slack for team communication (Craig)",
+      "Set up Trello for task management and risk management (Josh, Ben)",
+      "Set up Drive and File sharing (Kocsen)",
+      "Swimlane Diagrams (Jeremy)",
+      "Identified initial risks (Ben, Craig)",
+      "Create week 2 meeting agendas (Josh)",
+      "Send out email for VM creation (Kocsen)",
+      "Create VM for internal tools (Kocsen)"
     ],
-    "needs": [
-      "N/A"
+    "risks" : {
+      "high" : [
+        "Project scope is vague",
+        "Technical constraints are unclear",
+        "The team commits to a larger project scope than what can be completed"
+      ],
+      "medium" : [
+        "Team is inexperienced with .NET framework",
+        "Team is inexperienced with Microsoft SharePoint technologies"
+      ],
+      "low" : []
+    },
+    "plans" : [
+      "Project synopsis",
+      "Determine project metrics",
+      "Begin identifying domain model",
+      "Setup website",
+      "Identify development process"
+    ],
+    "needs" : [
+      "Documentation on general production environment setup",
+      "Sample user accounts to play with existing third party application",
+      "List of important dates (presentations, start of scholarship applications, etc.)"
     ]
   }
 ]

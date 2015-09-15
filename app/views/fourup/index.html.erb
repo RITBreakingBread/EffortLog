@@ -1,5 +1,11 @@
-<% @four_ups.each do |four_up| %>
+<div class="btn-group" role="group" aria-label="...">
+  <%= link_to "All", fourup_index_path, class: "btn btn-default" %>
+  <% [1,2,3].each do |week| %>
+    <%= link_to "Week " + week.to_s, fourup_path(week), class: "btn btn-default" %>
+  <% end %>
+</div>
 
+<% @four_ups.each do |four_up| %>
     <div class="row">
       <div class="col-md-12">
         <div class="page-header">

@@ -11,8 +11,9 @@ Rails.application.routes.draw do
   #the root of the application
   root 'effort_logs#index'
 
-  get '4ups' => 'fourup#index'
+  #get '4ups' => 'fourup#index'
 
+  resources :fourup, only: [:show, :index]
   resources :week_reports, only: [:show]
 
   # The priority is based upon order of creation: first created -> highest priority.
