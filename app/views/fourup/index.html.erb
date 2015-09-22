@@ -1,6 +1,6 @@
 <div class="btn-group" role="group" aria-label="...">
   <%= link_to "All", fourup_index_path, class: "btn btn-default" %>
-  <% [1,2,3].each do |week| %>
+  <% (1..4).each do |week| %>
     <%= link_to "Week " + week.to_s, fourup_path(week), class: "btn btn-default" %>
   <% end %>
 </div>
@@ -40,19 +40,25 @@
             <h4>High Priority</h4>
             <ul>
               <% four_up['risks']['high'].each do |item| %>
-                  <li><%= item %></li>
+                <li><%= item %></li>
               <% end %>
             </ul>
             <h4>Medium Priority</h4>
             <ul>
               <% four_up['risks']['medium'].each do |item| %>
-                  <li><%= item %></li>
+                <li><%= item %></li>
               <% end %>
             </ul>
             <h4>Low Priority</h4>
             <ul>
               <% four_up['risks']['low'].each do |item| %>
-                  <li><%= item %></li>
+                <li><%= item %></li>
+              <% end %>
+            </ul>
+            <h4>Mitigated</h4>
+            <ul>
+              <% four_up['risks']['mitigated'].each do |item| %>
+                <li><%= item %></li>
               <% end %>
             </ul>
           </div>

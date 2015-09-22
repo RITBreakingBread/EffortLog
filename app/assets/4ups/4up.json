@@ -1,5 +1,56 @@
 [
   {
+    "week": "4", 
+    "progress": [
+      "Modify Scholarship Fund Process Doc (Josh)", 
+      "[W4] Send out agenda (Craig)", 
+      "Decide on two product / process appropriate metrics that will be tracked and reported on (via the website) every other week (All)", 
+      "Update project plan to include V.C. Decisions (Kocsen)", 
+      "Prep Friday 9/18 meeting agenda (Kocsen)", 
+      "Develop start / finish Use Case / Swimlane Diagram from the view of the of the User (All)",
+      "Setup and investigate Jira Agile (Ben)", 
+      "[W4] Prep Agenda (Ben, Kocsen)", 
+      "4UP Week 3 (Josh)", 
+      "Get Ubuntu / Windows VM (Kocsen)", 
+      "Respond to Courtneys email (Craig)", 
+      "Update project plan to show 2+1 sprints (Kocsen)", 
+      "Proof of concept ADFS setup (Craig)", 
+      "Integrate Jira with Slack (Ben)"
+    ], 
+    "risks": {
+      "high": [
+        "Project scope is vague",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ",
+        "Migration to Jira"
+      ], 
+      "medium": [
+        "Data Synchronization between Wegmans'core and Scholarship Application",
+        "Team is inexperienced with .NET framework",
+        "Technical constraints are unclear",
+        "Relying on Digital Ocean for provisioning of internal tools and website"
+      ], 
+      "low": [
+        "Upcoming Absences"
+      ],
+      "mitigated": [
+        "N/A"
+      ]
+      }, 
+    "plans": [
+      "[W4] Four-ups (Josh)", 
+      "Incorporate glossary into website as PoC for additional sponsor-visible artifacts (Josh)", 
+      "[Department Requirement] Project Plan (Craig)", 
+      "[Department Requirement] Domain Model (Craig)", 
+      "Setup W5 agenda(s) and meetings (Kocsen)",
+      "[Needs Review] Finalize GQM Documentation for 2 metrics (Ben)"
+    ],
+    "needs": [
+      "Upgrade Linux VM to 2 GB of RAM (Ben, Craig)", 
+      "Watch the Lynda .NET MVC Introduction (All)"
+    ]
+  },
+  {
     "week": "3", 
     "progress": [
       "Implement weekly pagination on Effort Log Reports (Josh)",
@@ -25,7 +76,10 @@
       ], 
       "low": [
         "N/A"
-      ]
+      ],
+      "mitigated": [
+        "N/A"
+      ]      
       }, 
     "plans": [
       "Set up and investigate Jira Agile", 
@@ -65,6 +119,9 @@
       ],
       "low" : [
         "Relying on Digital Ocean for provisioning of internal tools and website"
+      ],
+      "mitigated": [
+        "N/A"
       ]
     },
     "plans" : [
@@ -100,7 +157,12 @@
         "Team is inexperienced with .NET framework",
         "Team is inexperienced with Microsoft SharePoint technologies"
       ],
-      "low" : []
+      "low" : [
+        "N/A"
+      ],
+      "mitigated": [
+        "N/A"
+      ]
     },
     "plans" : [
       "Project synopsis",
