@@ -18,3 +18,8 @@ body {
     background-image: url("food.png");
     background-repeat: repeat;
 }
+
+iframe{
+	width:100%;
+	height:600px;
+}
