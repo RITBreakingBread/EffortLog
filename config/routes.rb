@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   resources :fourup, only: [:show, :index]
   resources :week_reports, only: [:show]
-  resources :artifact, only: [:index]
+  resources :artifact, only: [:index, :show]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

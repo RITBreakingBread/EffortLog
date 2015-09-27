@@ -1,0 +1,18 @@
+
+<div class="btn-group" role="group" aria-label="...">
+  <% @artifact_json.keys.each do |key| %>
+    <%= link_to @artifact_json[key]["link_name"], artifact_path(key), class: "btn btn-default" %>
+  <% end %>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+	<h1><%= @artifact_json[@artifact_name]["link_name"] %></h1>
+	<iframe src=<%= @artifact_json[@artifact_name]["url"] %>
+			<%= @artifact_json[@artifact_name]["attributes"] %>></iframe>
+  </div>
+</div>
+
+
+
+

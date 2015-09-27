@@ -5,6 +5,7 @@ class FourupController < ApplicationController
   #will show the 4ups for all weeks, in descending order
   def index
     @four_ups=read_fourup_json
+    render 'fourup/fourup_display'
   end
 
   #will show the 4up for only a specific week
@@ -18,7 +19,7 @@ class FourupController < ApplicationController
 
     @four_ups = [].push(four_ups[week_index])
 
-    render 'fourup/index'
+    render 'fourup/fourup_display'
   end
 
   private 

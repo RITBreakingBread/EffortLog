@@ -1,0 +1,20 @@
+{
+	"glossary": {
+		"url": "https://docs.google.com/spreadsheets/d/16GkwLID32l_keZ7YbDzPNM_VatgFkai2udtNPSqNlqs/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false", 
+		"link_name": "Glossary",
+		"attributes": ""
+	},
+
+	"project_plan": {
+		"url": "https://docs.google.com/document/d/16CHl7objFfO3lP01vGHZ83Af0NNlr1I_8KXJUZdfrX4/pub?embedded=true", 
+		"link_name": "Project Plan",
+		"attributes": ""
+	},
+
+	"domain_model": {
+		"url": "https://www.lucidchart.com/documents/embeddedchart/ed6363be-f8b0-4357-a651-b0aab7640fce", 
+		"link_name": "Domain Model",
+		"attributes": "allowfullscreen frameborder=\"0\" style=\"width:960px; height:720px\""
+	}
+
+}
