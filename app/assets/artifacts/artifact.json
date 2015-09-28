@@ -12,8 +12,20 @@
 	},
 
 	"domain_model": {
-		"url": "https://www.lucidchart.com/documents/embeddedchart/ed6363be-f8b0-4357-a651-b0aab7640fce", 
+		"url": "https://www.lucidchart.com/documents/embeddedchart/98071882-6739-4f47-ba30-c49c246106dd", 
 		"link_name": "Domain Model",
+		"attributes": "allowfullscreen frameborder=\"0\" style=\"width:960px; height:720px\""
+	}, 
+
+	"application_process": {
+		"url": "https://www.lucidchart.com/documents/embeddedchart/ed6363be-f8b0-4357-a651-b0aab7640fce", 
+		"link_name": "Application Process", 
+		"attributes": "allowfullscreen frameborder=\"0\" style=\"width:960px; height:720px\""
+	},
+
+	"payment_request_process": {
+		"url": "https://www.lucidchart.com/documents/embeddedchart/c2d24ca2-0178-4479-b246-4790899b3657", 
+		"link_name": "Payment Request Process", 
 		"attributes": "allowfullscreen frameborder=\"0\" style=\"width:960px; height:720px\""
 	}
 
