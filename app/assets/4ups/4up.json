@@ -1,4 +1,56 @@
 [
+ 
+  {
+    "week": "5", 
+    "progress": [
+      "4up Week 4 (Josh)", 
+      "Integrate glossary into website as P.O.C. for additional sponsor-facing resources (Josh)", 
+      "[Department Requirement] Update project plan to include new schedule (Kocsen)",
+      "Setup Week 5 Meetings and Agendas (Kocsen)", 
+      "[Department Requirement] Domain Model (Craig)", 
+      "Finalize GQM Documentation for 2 metrics (Ben)", 
+      "Create project schedule draft (Kocsen)", 
+      "[Department Requirement] Update project plan with Department Requirements (Kocsen)", 
+      "[Department Requirement] Domain model and project plan on website (Josh)", 
+      "Cleanup Week 5 Agenda / Minutes / Naming Conventions (Kocsen)", 
+      "Reserve the Innovation Center for 9/29 meeting (Kocsen)", 
+      "Create Initial Product Backlog (All)",
+      "Finalize Architecture Documentation for 9/29 (Craig, Kocsen, Ben, Josh)"
+    ],
+    "risks": {
+      "high": [
+        "Risk Management not being managed properly - items are stale and high priority risks are not being met with a documented mitigation strategy",
+        "Effort Logs: Recording of efforts not standardized, no process set. Reporting not currently in place", 
+        "Project scope is vague",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ",
+        "Migration to Jira"
+      ], 
+      "medium": [
+        "Risk management migration to JIRA",
+        "Data Synchronization between Wegmans'core and Scholarship Application",
+        "Team is inexperienced with .NET framework",
+        "Technical constraints are unclear",
+        "Relying on Digital Ocean for provisioning of internal tools and website"
+      ], 
+      "low": [
+        "Upcoming Absences"
+      ],
+      "mitigated": [
+        "N/A"
+      ]
+      }, 
+    "plans": [
+      "Start Requirement Document (Jeremy)",
+      "Perform migration of Risk Management from Trello to Jira (Josh)",
+      "Week 5 four up (Josh)", 
+      "Update Domain Model with Latest Requirements (Craig)", 
+      "Migrate website to breakingbread.se.rit.edu (Kocsen, Josh)", 
+      "Clean up metrics in Project Plan (Ben)", 
+      "Clean up GA board statuses / transitions and configure effort reporting in JIRA (Josh)"
+    ],
+    "needs": ["N/A"]
+  },
   {
     "week": "4", 
     "progress": [
