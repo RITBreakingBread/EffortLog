@@ -1,5 +1,45 @@
 [
- 
+  {
+    "week": "6", 
+    "progress": [
+      "Update project plan according to new schedule change (Kocsen)",
+      "Create presentation for 10/2 Wegmans meeting (Craig)",
+      "Migrate EffortLog to breakingbread.se.rit.edu (Josh, Kocsen, Ben)",
+      "Update domain model with latest requirements (Kocsen)", 
+      "[Department Requirement] Cleanup metrics in project plan (Kocsen)",
+      "Week 5 Four Up (Josh)",
+      "Start requirements document (Jeremy)"
+    ],
+    "risks": {
+      "high": [
+        "Risk Management not being managed properly - items are stale and high priority risks are not being met with a documented mitigation strategy",
+        "Effort Logs: Recording of efforts not standardized, no process set. Reporting not currently in place", 
+        "Project scope is vague",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ",
+        "Migration to Jira"
+      ], 
+      "medium": [
+        "Risk management migration to JIRA",
+        "Data Synchronization between Wegmans'core and Scholarship Application",
+        "Team is inexperienced with .NET framework",
+        "Technical constraints are unclear"
+      ], 
+      "low": [
+        "Upcoming Absences"
+      ],
+      "mitigated": [
+        "N/A"
+      ]
+    }, 
+    "plans": [
+      "Complete Risk Management agile board and item migration to Jira (Josh)",
+      "Update domain model given wegmans meeting (Craig)",
+      "Meeting prep for week 7 (Kocsen)",
+      "Create epics for current set of user stories (Ben)"
+    ],
+      "Request RAM increase for breakingcake.se.rit.edu (Ben)"
+  },
   {
     "week": "5", 
     "progress": [
