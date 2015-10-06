@@ -38,7 +38,9 @@
       "Meeting prep for week 7 (Kocsen)",
       "Create epics for current set of user stories (Ben)"
     ],
+    "needs": [
       "Request RAM increase for breakingcake.se.rit.edu (Ben)"
+    ]
   },
   {
     "week": "5", 
