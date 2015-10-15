@@ -16,24 +16,26 @@
     ],
     "risks": {
       "high": [
-        "Risk Management not being managed properly - items are stale and high priority risks are not being met with a documented mitigation strategy",
+        "SE VM Ram currently limited to 6 gb",
         "Effort Logs: Recording of efforts not standardized, no process set. Reporting not currently in place", 
-        "Project scope is vague",
         "The team commits to a larger project scope than what can be completed",
-        "Integration with Wegmans systems given technical constraints of a DMZ",
-        "Migration to Jira"
+        "Integration with Wegmans systems given technical constraints of a DMZ"
       ], 
       "medium": [
+        "Project scope is vague",
         "Risk management migration to JIRA",
         "Data Synchronization between Wegmans'core and Scholarship Application",
-        "Team is inexperienced with .NET framework",
-        "Technical constraints are unclear"
+        "Team is inexperienced with .NET framework"
       ], 
       "low": [
         "Upcoming Absences"
       ],
       "mitigated": [
-        "N/A"
+        "SE VM Ram currently limited to 1GB, awaiting increase in memory from Kurt",
+        "Migration to Jira",
+        "Effort Logs: Recording not standardized, no process set. Reporting not currently in place",
+        "Risk Management not being managed properly - items are stale and high priority risks are not being met with a documented mitigation strategy",
+        "Technical constraints are unclear"
       ]
     }, 
     "plans": [
