@@ -1,5 +1,50 @@
 [
   {
+    "week": "7", 
+    "progress": [
+      "Send out email regarding Jira, Github account information and instructions (Craig)",
+      "Fix Jira Home URL (Ben)", 
+      "Update glossary with User Story and Use Case / Epic (Craig)",
+      "Create a Wegmans Jira Account to share (Ben)",
+      "Create Epics for current set of user stories (Josh)",
+      "Setup boards for sprints (Ben)",
+      "Formal comparison of Dapper vs. Entity Framework (Kocsen)",
+      "Meeting prep for Week 7 (Kocsen)",
+      "Update domain model given Wegmans Meeting (Craig)",
+      "Cleanup metrics in Project Plan (Ben)",
+      "Clean Up Epics (Josh)"
+    ],
+    "risks": {
+      "high": [
+        "Risk Management not being managed properly - items are stale and high priority risks are not being met with a documented mitigation strategy",
+        "Effort Logs: Recording of efforts not standardized, no process set. Reporting not currently in place", 
+        "Project scope is vague",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ",
+        "Migration to Jira"
+      ], 
+      "medium": [
+        "Risk management migration to JIRA",
+        "Data Synchronization between Wegmans'core and Scholarship Application",
+        "Team is inexperienced with .NET framework",
+        "Technical constraints are unclear"
+      ], 
+      "low": [
+        "Upcoming Absences"
+      ],
+      "mitigated": [
+        "N/A"
+      ]
+    }, 
+    "plans": [
+      "Complete Peer Evaluations and Email Professor Martinez (All)",
+      "W7 Four Up"
+    ],
+    "needs": [
+      "breakingcake.se.rit.edu Ram Increase"
+    ]
+  },
+  {
     "week": "6", 
     "progress": [
       "Update project plan according to new schedule change (Kocsen)",
