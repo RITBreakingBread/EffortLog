@@ -1,5 +1,45 @@
 [
   {
+    "week": "8", 
+    "progress": [
+      "Complete Peer Evals and Email Martinez (All)",
+      "Add GitHub username as collaborator to repository (Kocsen)",
+      "Clean up Epics (Josh)",
+      "Re-write a couple of acceptance criteria for user stories (Ben)",
+      "Create epics for current set of user stories (Josh)"
+    ],
+    "risks": {
+      "high": [
+        "SE VM Ram currently limited to 6 gb",
+        "Current payment request model changes",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Project scope is vague",
+        "Risk management migration to JIRA",
+        "Data Synchronization between Wegmans'core and Scholarship Application",
+        "Team is inexperienced with .NET framework"
+      ], 
+      "low": [
+        "Upcoming Absences"
+      ],
+      "mitigated": [
+        "SE VM Ram currently limited to 1GB, awaiting increase in memory from Kurt",
+        "Migration to Jira",
+        "Effort Logs: Recording not standardized, no process set. Reporting not currently in place",
+        "Risk Management not being managed properly - items are stale and high priority risks are not being met with a documented mitigation strategy",
+        "Technical constraints are unclear"
+      ]
+    }, 
+    "plans": [
+      "N/A"
+    ],
+    "needs": [
+      "breakingcake.se.rit.edu Ram Increase"  
+    ]
+  },
+  {
     "week": "7", 
     "progress": [
       "Send out email regarding Jira, Github account information and instructions (Craig)",
