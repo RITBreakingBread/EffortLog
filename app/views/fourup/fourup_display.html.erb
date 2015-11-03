@@ -1,6 +1,6 @@
 <div class="btn-group" role="group" aria-label="...">
   <%= link_to "All", fourup_index_path, class: "btn btn-default" %>
-  <% (1..8).each do |week| %>
+  <% (1..10).each do |week| %>
     <%= link_to "Week " + week.to_s, fourup_path(week), class: "btn btn-default" %>
   <% end %>
 </div>

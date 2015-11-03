@@ -1,8 +1,68 @@
 [
   {
+    "week": "10", 
+    "progress": [
+      "N/A"
+    ],
+    "risks": {
+      "high": [
+        "No testing plans or framework have been defined",
+        "Current payment request model changes",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Data synchronization between Wegmans' core and Scholarship application",
+        "Sponsor and coach gold-plating"      
+      ], 
+      "low": [
+        "Upcoming Absences",
+        "Team is inexperienced with .NET",
+        "Project scope is vague",
+        "Implications of Application review delegation feature"
+      ],
+      "mitigated": [
+      ]
+    }, 
+    "plans": [
+      "N/A"
+    ],
+    "needs": [
+    ]
+  },
+  {
+    "week": "9", 
+    "progress": [
+      "Create a when-to-away calendar (Kocsen)",
+      "Complete Peer Evals and Email Martinez (All)"
+    ],
+    "risks": {
+      "high": [
+        "No testing plans or framework have been defined",
+        "Current payment request model changes",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Data synchronization between Wegmans' core and Scholarship application"
+      ], 
+      "low": [
+        "Upcoming Absences",
+        "Team is inexperienced with .NET",
+        "Project scope is vague",
+        "Implications of Application review delegation feature"
+      ],
+      "mitigated": []
+    }, 
+    "plans": [
+      "Week 10 Meeting Prep (Kocsen)"
+    ],
+    "needs": [
+    ]
+  },
+  {
     "week": "8", 
     "progress": [
-      "Complete Peer Evals and Email Martinez (All)",
       "Add GitHub username as collaborator to repository (Kocsen)",
       "Clean up Epics (Josh)",
       "Re-write a couple of acceptance criteria for user stories (Ben)",
