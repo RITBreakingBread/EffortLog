@@ -1,5 +1,79 @@
 [
   {
+    "week": "12", 
+    "progress": [
+      "Cycle Epic Created (Josh)",
+      "Product Backlog Revised and Prioritized (Josh)",
+      "WSA-14 HR Performance Evaluation Review (Josh)",
+      "**********************Include progress here"
+    ],
+    "risks": {
+      "high": [
+        "No testing plans or framework have been defined",
+        "Current payment request model changes",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Data synchronization between Wegmans' core and Scholarship application",
+        "Sponsor and coach gold-plating",
+        "Authentication with SAML",
+        "Low HDD space on BreakingCake VM"    
+      ], 
+      "low": [
+        "Project scope is vague",
+        "Implications of Application review delegation feature"
+      ],
+      "mitigated": [
+      ]
+    }, 
+    "plans": [
+      "Sprint 3 Retrospective (All)",
+      "Sprint 3 Planning (All)",
+      "Week 13 Meeting Preparation (All)",
+    ],
+    "needs": [
+      "Projector in \"Feel Immportant Room\" needs to be fixed"
+    ]
+  },
+  {
+    "week": "11", 
+    "progress": [
+      "WSA-10 Performance Evaluation Form (Josh)",
+      "Week 12 Meeting Preparation (Kocsen)",
+      "*********************Include progress here"
+    ],
+    "risks": {
+      "high": [
+        "No testing plans or framework have been defined",
+        "Current payment request model changes",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Data synchronization between Wegmans' core and Scholarship application",
+        "Sponsor and coach gold-plating",
+        "Authentication with SAML",
+        "Low HDD space on BreakingCake VM"    
+      ], 
+      "low": [
+        "Project scope is vague",
+        "Implications of Application review delegation feature"
+      ],
+      "mitigated": [
+        "Team is inexperienced with .NET"
+        "Upcoming Absences"
+      ]
+    }, 
+    "plans": [
+      "N/A"
+    ],
+    "needs": [
+      "N/A"
+    ]
+  },
+
+  {
     "week": "10", 
     "progress": [
       "N/A"
