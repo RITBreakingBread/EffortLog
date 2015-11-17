@@ -47,8 +47,7 @@
     "progress": [
       "WSA-10 Performance Evaluation Form (Josh)",
       "Week 12 Meeting Preparation (Kocsen)",
-      "CI failure mitigation (Kocsen)",
-      "*********************Include progress here"
+      "CI failure mitigation (Kocsen)"
     ],
     "risks": {
       "high": [
@@ -73,7 +72,12 @@
       ]
     }, 
     "plans": [
-      "N/A"
+      "Prepare for Sprint 2 demo (All)",
+      "Revise / Reprioritize Product Backlog (Josh)",
+      "Address CI errors (Kocsen)",
+      "WSA-35 in code review (Craig)",
+      "WSA-6 Override employee eligibility (Kocsen)",
+      "WSA-5 Save Incomplete Application (Jeremy)"
     ],
     "needs": [
       "N/A"
