@@ -6,7 +6,12 @@
       "Product Backlog Revised and Prioritized (Josh)",
       "WSA-14 HR Performance Evaluation Review (Josh)",
       "major development environment refactoring for angular (Craig)",
-      "WSA-35 in code review (Craig)"
+      "WSA-35 in code review (Craig)",
+      "WSA-6 Override employee eligibility (Kocsen)",
+      "Meeting preparation and uploading of voice notes (Kocsen)",
+      "CI fixes and updates (Kocsen)",
+      "Ability to save application (Jeremy)",
+      "Ability to resume an application in PR (Jeremy)"
     ],
     "risks": {
       "high": [
@@ -31,7 +36,7 @@
     "plans": [
       "Sprint 3 Retrospective (All)",
       "Sprint 3 Planning (All)",
-      "Week 13 Meeting Preparation (All)",
+      "Week 13 Meeting Preparation (All)"
     ],
     "needs": [
       "Projector in \"Feel Immportant Room\" needs to be fixed"
@@ -42,6 +47,7 @@
     "progress": [
       "WSA-10 Performance Evaluation Form (Josh)",
       "Week 12 Meeting Preparation (Kocsen)",
+      "CI failure mitigation (Kocsen)",
       "*********************Include progress here"
     ],
     "risks": {
@@ -62,7 +68,7 @@
         "Implications of Application review delegation feature"
       ],
       "mitigated": [
-        "Team is inexperienced with .NET"
+        "Team is inexperienced with .NET",
         "Upcoming Absences"
       ]
     }, 
