@@ -1,5 +1,95 @@
 [
   {
+    "week": "14", 
+    "progress": [
+      "Started WSA-75 (Fasttrack Application) (Josh)",
+      "[Approaching Code Review] WSA-71 (Cycle Creation Form) (Ben)",
+      "Completed WSA-70 (Cycle Management Interface) (Josh)",
+      "Eat Turkey (All)",
+      "[In Code Review] WSA-54 (Application Process Assignment Model) (Craig)",
+      "Started WSA-46 (Resume progress on saved application) (Jeremy)",
+      "Started WSA-22 (Approve / Reject Application) (Kocsen)"
+    ],
+    "risks": {
+      "high": [
+        "No testing plans or framework have been defined",
+        "Current payment request model changes",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Data synchronization between Wegmans' core and Scholarship application",
+        "Sponsor and coach gold-plating",
+        "Authentication with SAML",
+        "Low HDD space on BreakingCake VM"    
+      ], 
+      "low": [
+        "Project scope is vague",
+        "Implications of Application review delegation feature"
+      ],
+      "mitigated": [
+        "n/a"
+      ]
+    }, 
+    "plans": [
+      "Complete Sprint Work (All)",
+      "Prepare for Thursday Demo (All)",
+      "Re-write Payment Request epic(s) and associated user stories (Josh w/ help from all)",
+      "Prepare for department presentation (All)",
+      "Personal Metrics Update (All)"
+    ],
+    "needs": [
+      "n/a"
+    ]
+  },
+  {
+    "week": "13", 
+    "progress": [
+      "Week 13 Meeting Preparation (All)",
+      "Sprint 3 Retrospective (All)",
+      "Spring 3 Planning (All)",
+      "Started WSA-71 (Cycle Creation Form) (Ben)",
+      "Started WSA-70 (Cycle Management Interface) (Josh)",      
+      "Completed WSA-82 (Bug) (Craig)",
+      "Completed WSA-76 (Bug) (Kocsen)",
+      "Completed WSA-81 (Bug) (Kocsen)",
+      "Completed WSA-52 (Application Start Restriction) (Craig)",
+      "Completed WSA-35 (Evaluation Review Comments) (Craig)",
+      "Completed WSA-83 (Bug) (Craig)",
+      "Completed WSA-67 (Bug) (Craig)",
+      "Completed WSA-78 (Bug) (Josh)",
+      "Completed WSA-65 (Bug) (Craig)",
+      "Started WSA-30 (CI) (Kocsen)"
+    ],
+    "risks": {
+      "high": [
+        "No testing plans or framework have been defined",
+        "Current payment request model changes",
+        "The team commits to a larger project scope than what can be completed",
+        "Integration with Wegmans systems given technical constraints of a DMZ"
+      ], 
+      "medium": [
+        "Data synchronization between Wegmans' core and Scholarship application",
+        "Sponsor and coach gold-plating",
+        "Authentication with SAML",
+        "Low HDD space on BreakingCake VM"    
+      ], 
+      "low": [
+        "Project scope is vague",
+        "Implications of Application review delegation feature"
+      ],
+      "mitigated": [
+        "n/a"
+      ]
+    }, 
+    "plans": [
+      "n/a"
+    ],
+    "needs": [
+      "n/a"
+    ]
+  },
+  {
     "week": "12", 
     "progress": [
       "Cycle Epic Created (Josh)",
