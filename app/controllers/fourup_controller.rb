@@ -25,6 +25,6 @@ class FourupController < ApplicationController
   private 
   #method to parse 4up JSON document and create map to be rendered
   def read_fourup_json
-    JSON.parse(File.read(File.join(Rails.root,'app','assets','4ups','4up.json')))
+    JSON.parse(File.read(File.join(Rails.root,'app','assets','4ups','4up2.json')))
   end
 end
