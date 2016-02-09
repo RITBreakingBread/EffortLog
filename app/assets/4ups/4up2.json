@@ -1,64 +1,101 @@
 [
-	{
-	    "week": "2", 
-	    "progress": [
-	    	"Jan 30th meeting preparation (Kocsen)",
-	    	"Update Progress Plan (Kocsen)",
-	    	"Week 2 Tuesday Meeting Preparation (All)"
-	    ],
-	    "risks": {
-	      "high": [
-	      	"Mitigating authentication scope change",
-	        "No testing plans or framework have been defined",
-	        "Current payment request model changes",
-	        "The team commits to a larger project scope than what can be completed",
-	        "Integration with Wegmans systems given technical constraints of a DMZ"
-	      ], 
-	      "medium": [
-	        "Data synchronization between Wegmans' core and Scholarship application",
-	        "Sponsor and coach gold-plating",
-	        "Authentication with SAML",
-	        "Low HDD space on BreakingCake VM"    
-	      ], 
-	      "low": [
-	        "Project scope is vague",
-	        "Implications of Application review delegation feature"
-	      ],
-	      "mitigated": [
-	        "n/a"
-	      ]
-	    }, 
-	    "plans": [
-	    	"Week 2 sponsor meeting preparation (All)",
-	    	"Revise Payment Process User Stories (Josh)",
-	    	"Create authentication / authorization epic + user stories (Josh)"
-	    ],
-	    "needs": [
-	    	"N/A"
-	    ]
-	},
-	{
-		"week":"1", 
-		"progress":[],
-		"risks":{
-			"high":[
-				"N/A"
-			],
-			"medium":[
-				"N/A"
-			],
-			"low":[
-				"N/A"
-			],
-			"mitigated":[
-				"N/A"
-			]
-		},
-		"plans":[
-			"N/A"
-		],
-		"needs":[
-			"N/A"
-		]
-	}
+    {
+        "week": "3", 
+        "progress": [
+            "Week 3 Tuesday Meeting Preparation (All)",
+            "Update meeting notes to reflect Carol (Jeremy)",
+            "1-1 Talks with Martinez (All?)",
+            "Development Work (All)"
+        ],
+        "risks": {
+          "high": [
+            "Authentication with SAML",
+            "No testing plans or framework have been defined",
+            "The team commits to a larger project scope than what can be completed"
+          ], 
+          "medium": [
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating" 
+          ], 
+          "low": [
+          ],
+          "mitigated": [
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        }, 
+        "plans": [
+            "Week 3 sponsor meeting preparation (All)",
+            "Development work",
+            "Create NEW Payment Process User Stories (Josh)"
+        ],
+        "needs": [
+            "N/A"
+        ]
+    },
+    {
+        "week": "2", 
+        "progress": [
+            "Jan 30th meeting preparation (Kocsen)",
+            "Update Progress Plan (Kocsen)",
+            "Week 2 Tuesday Meeting Preparation (All)"
+        ],
+        "risks": {
+          "high": [
+            "Mitigating authentication scope change",
+            "No testing plans or framework have been defined",
+            "Current payment request model changes",
+            "The team commits to a larger project scope than what can be completed",
+            "Integration with Wegmans systems given technical constraints of a DMZ"
+          ], 
+          "medium": [
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating",
+            "Authentication with SAML",
+            "Low HDD space on BreakingCake VM"    
+          ], 
+          "low": [
+            "Project scope is vague",
+            "Implications of Application review delegation feature"
+          ],
+          "mitigated": [
+            "n/a"
+          ]
+        }, 
+        "plans": [
+            "Week 2 sponsor meeting preparation (All)",
+            "Revise Payment Process User Stories (Josh)",
+            "Create authentication / authorization epic + user stories (Josh)"
+        ],
+        "needs": [
+            "N/A"
+        ]
+    },
+    {
+        "week":"1", 
+        "progress":[],
+        "risks":{
+            "high":[
+                "N/A"
+            ],
+            "medium":[
+                "N/A"
+            ],
+            "low":[
+                "N/A"
+            ],
+            "mitigated":[
+                "N/A"
+            ]
+        },
+        "plans":[
+            "N/A"
+        ],
+        "needs":[
+            "N/A"
+        ]
+    }
 ]
