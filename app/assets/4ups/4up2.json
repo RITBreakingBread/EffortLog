@@ -30,7 +30,8 @@
         "plans": [
             "Week 3 sponsor meeting preparation (All)",
             "Development work",
-            "Create NEW Payment Process User Stories (Josh)"
+            "Create NEW Payment Process User Stories (Josh)",
+            "Create Authentication / Authorization Epic + Stories (Josh with superior council from Craig)"
         ],
         "needs": [
             "N/A"
