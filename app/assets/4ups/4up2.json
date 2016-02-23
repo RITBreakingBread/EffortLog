@@ -1,4 +1,78 @@
 [
+
+    {
+        "week": "5", 
+        "progress": [
+            "Development Items (All)",
+            "Wegmans Agile Process Q&A Panel (Ben, Josh, Kocsen, Jeremy)",
+            "Week 4 Friday Meeting (All)",
+            "Week 4 Sponsor Meeting (All)"
+        ],
+        "risks": {
+          "high": [
+            "Authentication with SAML",
+            "The team commits to a larger project scope than what can be completed"
+          ], 
+          "medium": [
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating" 
+          ], 
+          "low": [
+            "N/A"
+          ],
+          "mitigated": [
+            "No testing plans or framework have been defined",
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        }, 
+        "plans": [
+            "Sprint 4 Retrospective (All)",
+            "Investigate exporting of JIRA data (Kocsen)",
+            "Create payment process user stories (Josh)",
+            "Wegmans authentication meeting (Craig, Kocsen, Ben)",
+            "Week 5 Sponsor Meeting Preparation (All)", 
+            "Prepare for week 5 friday meeting (All)",
+            "Create bugs for TODO items in code (Ben)"
+        ],
+        "needs": [
+            "N/A"
+        ]
+    },
+    {
+        "week": "4", 
+        "progress": [
+        ],
+        "risks": {
+          "high": [
+            "Authentication with SAML",
+            "No testing plans or framework have been defined",
+            "The team commits to a larger project scope than what can be completed"
+          ], 
+          "medium": [
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating" 
+          ], 
+          "low": [
+            "N/A"
+          ],
+          "mitigated": [
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        }, 
+        "plans": [
+        ],
+        "needs": [
+            "N/A"
+        ]
+    },
     {
         "week": "3", 
         "progress": [
