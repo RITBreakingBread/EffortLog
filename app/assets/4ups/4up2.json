@@ -1,5 +1,47 @@
 [
-
+    {
+        "week": "6", 
+        "progress": [
+            "Development Items (All)",
+            "Wegmans Authentication Meeting w/ Adam (Ben, Craig, Kocsen)",
+            "Week 5 Retrospective (All)",
+            "Week 5 Sponsor Meeting - Sprint Kickoff (All)",
+            "Create payment process user stories (Josh, Ben)",
+            "Create JIRA bugs for Angular TODO items (Ben)",
+            "Wegmans provided email template and P.Request rejection reasons (Wegmans)"
+        ],
+        "risks": {
+          "high": [
+            "Technical debt has been growing.",
+            "The team commits to a larger project scope than what can be completed"
+          ], 
+          "medium": [
+            "Some development items have been delayed by Entity Framework limitations",
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating"   
+          ], 
+          "low": [
+            "N/A"
+          ],
+          "mitigated": [
+            "Authentication with SAML",
+            "No testing plans or framework have been defined",
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        }, 
+        "plans": [
+            "Develop, Develop, Develop (All)",
+            "Create / finalize additional payment request user stories (Josh)",
+            "Authentication prototyping (Craig)"
+        ],
+        "needs": [
+            "N/A"
+        ]
+    },
     {
         "week": "5", 
         "progress": [
