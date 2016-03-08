@@ -1,5 +1,46 @@
 [
     {
+        "week": "7", 
+        "progress": [
+            "Development Items (All)",
+            "Week 6 Sponsor Meeting - (Payment Request Discussions)"
+        ],
+        "risks": {
+          "high": [
+            "Technical debt has been growing.",
+            "The team commits to a larger project scope than what can be completed"
+          ], 
+          "medium": [
+            "Some development items have been delayed by Entity Framework limitations",
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating"   
+          ], 
+          "low": [
+            "N/A"
+          ],
+          "mitigated": [
+            "Authentication with SAML",
+            "No testing plans or framework have been defined",
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        }, 
+        "plans": [
+            "Develop, Develop, Develop (All)",
+            "Merge in features by code-freeze deadline on 3/9 11:59pm (All)",
+            "Test individual features prior to demo (All)",
+            "Complete outstanding development items post-demo (All)",
+            "Create base testing project [GA-89] (Ben)",
+            "Week 7 Friday meeting to prepare for Week 8 Sprint Proposal (All)"
+        ],
+        "needs": [
+            "N/A"
+        ]
+    },
+    {
         "week": "6", 
         "progress": [
             "Development Items (All)",
