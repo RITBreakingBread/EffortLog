@@ -1,5 +1,81 @@
 [
     {
+        "week": "9", 
+        "progress": [
+            "Development Items (All)",
+            "Sprint 6 Approved / Started (All)",
+            "Sprint 5 Retrospective (All)",
+            "Feed Spec (Craig)",
+            "Initial Reporting Conversation (All)"
+        ],
+        "risks": {
+          "high": [
+            "Technical debt has been growing.",
+            "The team commits to a larger project scope than what can be completed"
+          ], 
+          "medium": [
+            "Some development items have been delayed by Entity Framework limitations",
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating"   
+          ], 
+          "low": [
+            "N/A"
+          ],
+          "mitigated": [
+            "Authentication with SAML",
+            "No testing plans or framework have been defined",
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        }, 
+        "plans": [
+            "Develop, Develop, Develop (All)",
+            "Code freeze upcoming on Wed. 4/10 at midnight (All)",
+            "Test individual features prior to demo (All)",
+            "Complete outstanding development items post-demo (All)",
+            "Create base testing project [GA-89] (Ben)",
+            "Demonstrate Payment Request Detail on 3/31 (Josh)",
+            "Figure out how to address reporting (All)"
+        ],
+        "needs": [
+            "N/A"
+        ]
+    },
+    {
+        "week": "8", 
+        "progress": [],
+        "risks": {
+          "high": [
+            "Technical debt has been growing.",
+            "The team commits to a larger project scope than what can be completed"
+          ], 
+          "medium": [
+            "Some development items have been delayed by Entity Framework limitations",
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Sponsor and coach gold-plating"   
+          ], 
+          "low": [
+            "N/A"
+          ],
+          "mitigated": [
+            "Authentication with SAML",
+            "No testing plans or framework have been defined",
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        }, 
+        "plans": [],
+        "needs": [
+            "N/A"
+        ]
+    },
+    {
         "week": "7", 
         "progress": [
             "Development Items (All)",
