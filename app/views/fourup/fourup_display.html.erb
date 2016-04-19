@@ -1,6 +1,6 @@
 <div class="btn-group" role="group" aria-label="...">
   <%= link_to "All", fourup_index_path, class: "btn btn-default" %>
-  <% (1..11).each do |week| %>
+  <% (1..12).each do |week| %>
     <%= link_to "Week " + week.to_s, fourup_path(week), class: "btn btn-default" %>
   <% end %>
 </div>
@@ -12,9 +12,7 @@
           <h1>Week <%= four_up['week'] %></h1>
         </div>
       </div>
-
       <div class="col-md-6">
-
         <div class="panel panel-success">
           <div class="panel-heading">
             <h3 class="panel-title">Progress</h3>
@@ -27,11 +25,8 @@
             </ul>
           </div>
         </div>
-
       </div>
-
       <div class="col-md-6">
-
         <div class="panel panel-danger">
           <div class="panel-heading">
             <h3 class="panel-title">Risks</h3>
@@ -63,11 +58,8 @@
             </ul>
           </div>
         </div>
-
       </div>
-
       <div class="col-md-6">
-
         <div class="panel panel-info">
           <div class="panel-heading">
             <h3 class="panel-title">Plans</h3>
@@ -80,11 +72,8 @@
             </ul>
           </div>
         </div>
-
       </div>
-
       <div class="col-md-6">
-
         <div class="panel panel-warning">
           <div class="panel-heading">
             <h3 class="panel-title">Needs</h3>
@@ -97,7 +86,6 @@
             </ul>
           </div>
         </div>
-
       </div>
     </div>
 <% end %>

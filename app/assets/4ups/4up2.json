@@ -1,5 +1,57 @@
 [
     {
+        "week": "12",
+        "progress": [
+            "Development Items (All)",
+            "Email Functionality (Kocsen)",
+            "UI Cleanups (Craig)",
+            "Payment Request Touch Ups (Josh)",
+            "Sprint 7 Proposal Approval (All)",
+            "Poster Work (All)",
+            "Technical Sponsor Setup Demo (All)",
+            "Presentation Dates Resolved (All)"
+        ],
+        "risks": {
+          "high": [
+            "N/A"
+          ],
+          "medium": [
+            "N/A"
+          ],
+          "low": [
+            "PDF Rendering libraries difficult to find on NPM - may need to publish additional library"
+          ],
+          "mitigated": [
+            "Sponsor and coach gold-plating",
+            "The team commits to a larger project scope than what can be completed",
+            "Technical debt has been growing.",
+            "Some development items have been delayed by Entity Framework limitations",
+            "Data synchronization between Wegmans' core and Scholarship application",
+            "Authentication with SAML",
+            "No testing plans or framework have been defined",
+            "Project scope is vague",
+            "Implications of Application review delegation feature",
+            "SE VM RAM limitations",
+            "Project Scope is Vague",
+            "Low HDD Space on Breaking Cake"
+          ]
+        },
+        "plans": [
+            "Poster Completion (All)",
+            "Prepare Technical Report (All)",
+            "Prepare Wegmans / Department Final Presentation (All)",
+            "Develop, Develop, Develop (All)",
+            "PDF Rending (Josh)",
+            "Testing (Ben)",
+            "Email Templates (Kocsen)",
+            "Bugs and Eval Edit (Jeremy)",
+            "Pagination (Ben / Craig)"
+        ],
+        "needs": [
+            "Wegmans poster feedback"
+        ]
+    },
+    {
         "week": "11",
         "progress": [
             "Plan out important dates (Kocsen)",
@@ -47,7 +99,8 @@
         "needs": [
             "N/A"
         ]
-    },{
+    },
+    {
         "week": "10",
         "progress": [
             "Development Items (All)",
